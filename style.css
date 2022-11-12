@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+nav .logo{
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+span{
+    color: orange;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 40px;
+    box-shadow:0 0 10px rgba(0,0,0,0.4 )
+}
+.Menu{
+    display:flex;}
+ul{
+    list-style: none;
+}
+nav .Menu li a{
+   font-size:20px;
+    font-weight: 600;    
+}
+nav .Menu li:not(:last-child) a{
+    margin-right: 30px;
+}
+nav .Menu li a:hover{
+    color:red;
+    background-color: lightgreen;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.body_img{
+  width:450px;
+    border: 0;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 70px;
+}
+.hero_righot{
+    max-width:650px;
+    padding:100px;
+
+}
+#body{
+    display:flex;
+    padding:20px 40px;
+    justify-content:  space-between;
+    background-image:url(image/bg\ photo.jpg );
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.hero_righot h1{
+    color:azure;
+font-size: 40px;}
+.hero_righot p{
+    color:azure;
+    font-size: 20px;
+    letter-spacing: 1px;;
+}
+.hero_righot button{
+    font-size: 20px;
+    padding:8px;
+    color:rgb(14, 16, 14);
+    font-weight:600;
+    border-radius: 10px;
+    border:0px;
+    margin-top: 10px;
+
+}
+.hero_righot button:hover{
+    color:white;
+    background-color: black;
+    box-shadow: 5px 3px red;
+    transition: 0.2s linear;
+    
+}
+#cards{
+    display:grid;
+    grid-template-columns: repeat( 3, 250px);
+    padding:40px 0;
+    justify-content:space-evenly;
+    }
+#cards .card{
+    height:320px;
+    width:300px;
+    text-align: center;
+    border: 2px solid yellow;
+    padding:15px;
+    margin-bottom: 20px;
+}
+#cards .card:hover{
+    box-shadow:10px 8px 8px 6px rgb(141, 137, 137);
+}
+#cards .card h4{
+    font-size:35px;
+   
+    color:blue;    
+}
+#cards .card p{
+
+}
+#cards .card span{
+    display:block;
+    color: blue;
+    font-weight: 600;
+    margin: 10px 0;
+   
+}
+#cards img{
+     height: 160px;
+     width:100%;
+}
+#cards .card button{
+   font-size:18px;
+    color:rgb(250, 250, 252);
+    padding:4px;
+    letter-spacing: 2px;
+    width:80%;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: blue;
+    
+
+}
+#cards .card button:hover{
+    background-color: black;
+    box-shadow: 10px 5px 10px whitesmoke;
+}
